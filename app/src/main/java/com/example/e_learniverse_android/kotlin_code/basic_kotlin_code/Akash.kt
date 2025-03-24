@@ -4,6 +4,7 @@ class Akash : Parent() {
 
     // in Kotlin there is No Need for "new" keyword to create object
     companion object {
+        // This annotation is used to tell the compiler that the method is a static method and can be used in Java code.
         @JvmStatic
         fun main(args: Array<String>) {
             var akash: String = "Sergio Ramos"
@@ -11,7 +12,7 @@ class Akash : Parent() {
 
             //"var" vs "val"
             //"var" --> this variable can be Re-Assigned
-            //"val" --> this variable can NOT be Re-Assigned
+            //"val" --> this variable can NOT be Re-Assigned, this is Equivalent to "final" keyword of java... that's why there is a "l" in the End
 
             var a: Int = 100
             a = 200
