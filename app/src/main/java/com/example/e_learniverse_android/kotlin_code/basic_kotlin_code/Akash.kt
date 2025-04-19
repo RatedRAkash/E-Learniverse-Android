@@ -2,9 +2,10 @@ package com.example.e_learniverse_android.kotlin_code.basic_kotlin_code
 
 class Akash : Parent() {
 
-    // in Kotlin there is No Need for "new" keyword to create object
+    // in Kotlin there is No Need for "new" keyword to create object... We directly assign Value to the Variables to Create objects
     companion object {
-        // This annotation is used to tell the compiler that the method is a static method and can be used in Java code.
+
+        // This annotation is used to tell the compiler that the method is a static method and can also be used in Java code.
         @JvmStatic
         fun main(args: Array<String>) {
             var akash: String = "Sergio Ramos"
